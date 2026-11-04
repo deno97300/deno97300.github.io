@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0788d1">
+  <meta name="description" content="SL Réparation en Guyane : réparation de smartphones et tablettes. Prenez rendez-vous en ligne.">
+  <title>SL Réparation | Votre technologie entre de bonnes mains</title>
+  <style>
+    :root{--blue:#0788d1;--deep:#075b9a;--orange:#ff852b;--sand:#fff2d8;--ink:#17324a;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--sand)}
+    header{background:linear-gradient(120deg,#048bd4,#0862a8);color:white;padding:18px max(5vw,20px);display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .brand{font-weight:900;font-size:1.55rem;letter-spacing:.04em}.brand span{color:#ffb16e}
+    nav{display:flex;gap:20px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-weight:700;font-size:.95rem}
+    .hero{position:relative;overflow:hidden;padding:76px max(5vw,20px) 88px;background:linear-gradient(115deg,rgba(4,125,196,.95),rgba(6,83,145,.9)),radial-gradient(circle at 85% 20%,#8dd8f4,transparent 35%);color:white}
+    .hero:after{content:"";position:absolute;width:340px;height:340px;border:35px solid rgba(255,255,255,.12);border-radius:50%;right:-80px;bottom:-180px}
+    .eyebrow{color:#ffd0a6;text-transform:uppercase;letter-spacing:.16em;font-weight:800;font-size:.8rem}
+    h1{font-size:clamp(2.5rem,6vw,5rem);line-height:.98;margin:15px 0;max-width:850px;font-weight:900}
+    h1 span{color:#ff9a4b}.hero p{font-size:1.15rem;line-height:1.6;max-width:680px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;border:0;border-radius:999px;padding:14px 22px;background:var(--orange);color:#fff;text-decoration:none;font-weight:800;cursor:pointer}
+    .btn.alt{background:white;color:var(--deep)}
+    .wrap{width:min(1120px,90%);margin:auto}.section{padding:62px 0}.section h2{font-size:clamp(1.8rem,4vw,2.7rem);margin:0 0 12px;color:var(--deep)}
+    .intro{max-width:700px;line-height:1.65}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:28px}
+    .card{background:#fff;border-radius:18px;padding:22px;box-shadow:0 8px 24px #15466b12;border:1px solid #e8edf1}
+    .icon{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#fff0e4;color:#ed741c;font-size:1.35rem;font-weight:900;margin-bottom:14px}
+    .card h3{margin:0 0 8px;color:var(--deep)}.card p{margin:0;line-height:1.55;color:#587084}
+    .booking{background:linear-gradient(135deg,#e7f6ff,#fff4e5);border-radius:24px;padding:clamp(22px,4vw,42px);border:1px solid #cde9f8}
+    form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin-top:24px}
+    label{display:block;font-weight:700;margin-bottom:7px}input,select,textarea{width:100%;padding:13px;border:1px solid #c7d7e2;border-radius:10px;background:white;font:inherit;color:var(--ink)}
+    textarea{min-height:90px;resize:vertical}.full{grid-column:1/-1}.slots{display:flex;gap:9px;flex-wrap:wrap}.slot{background:#fff;border:1px solid #a9cddd;color:var(--deep);border-radius:10px;padding:11px 14px;cursor:pointer;font-weight:700}.slot[aria-pressed=true]{background:var(--blue);color:white;border-color:var(--blue)}
+    .note{font-size:.9rem;color:#587084;line-height:1.5}.night{background:#0b3154;color:white;border-radius:20px;padding:26px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.night h3{margin:0 0 8px;color:#ffad69}
+    .gallery{border:2px dashed #b9cbd5;border-radius:16px;padding:28px;text-align:center;color:#587084;background:#ffffffa8}
+    footer{background:#063e6d;color:white;padding:32px max(5vw,20px);line-height:1.8}footer a{color:#ffd0a6}
+    @media(max-width:650px){form{grid-template-columns:1fr}.full{grid-column:auto}header{justify-content:center}nav{justify-content:center}.hero{padding-top:55px}}
+  </style>
+</head>
+<body>
+<header><div class="brand">SL <span>RÉPARATION</span></div><nav><a href="#services">Réparations</a><a href="#reservation">Rendez-vous</a><a href="#galerie">Avant / Après</a><a href="#contact">Contact</a></nav></header>
+<main>
+<section class="hero"><div class="eyebrow">Réparation smartphones & tablettes · Guyane française</div><h1>Votre appareil mérite une <span>seconde vie.</span></h1><p>La réparation qui redonne vie à vos appareils, avec rapidité, précision et fiabilité.</p><div class="actions"><a class="btn" href="#reservation">Prendre rendez-vous</a><a class="btn alt" href="#services">Découvrir nos réparations</a></div></section>
+<section class="section wrap" id="services"><h2>Nos réparations</h2><p class="intro">Nous prenons en charge les smartphones et tablettes de nombreuses marques : Apple, Samsung, Xiaomi, Redmi, Oppo, Huawei, Honor, Google Pixel et autres modèles.</p><div class="cards">
+<article class="card"><div class="icon">▣</div><h3>Remplacement d'écran</h3><p>Écran OLED ou LCD selon le modèle de votre appareil.</p></article>
+<article class="card"><div class="icon">↻</div><h3>Batterie</h3><p>Remplacement de batterie pour retrouver une meilleure autonomie.</p></article>
+<article class="card"><div class="icon">◈</div><h3>Vitre arrière</h3><p>Remplacement de la vitre arrière endommagée.</p></article>
+<article class="card"><div class="icon">◎</div><h3>Caméra</h3><p>Réparation des caméras avant ou arrière.</p></article>
+<article class="card"><div class="icon">ϟ</div><h3>Connecteur de charge</h3><p>Diagnostic et réparation du port de charge.</p></article>
+<article class="card"><div class="icon">⚙</div><h3>Carte mère</h3><p>Intervention sur carte mère selon la panne constatée.</p></article>
+</div></section>
+<section class="section wrap" id="reservation"><div class="booking"><div class="eyebrow">Réservation en ligne</div><h2>Choisissez votre rendez-vous</h2><p class="intro">Sélectionnez d'abord une date, puis un créneau de deux heures. Horaires habituels : du lundi au samedi, de 08h à 18h.</p>
+<form id="bookingForm">
+<div><label for="customer">Nom et prénom</label><input id="customer" required placeholder="Votre nom"></div>
+<div><label for="phone">Téléphone</label><input id="phone" required type="tel" placeholder="Votre numéro"></div>
+<div><label for="device">Appareil</label><select id="device" required><option value="">Choisir une marque</option><option>Apple iPhone / iPad</option><option>Samsung</option><option>Xiaomi / Redmi</option><option>Oppo</option><option>Huawei / Honor</option><option>Google Pixel</option><option>Autre marque</option></select></div>
+<div><label for="model">Modèle exact</label><input id="model" required placeholder="Ex. iPhone 13, Galaxy S22…"></div>
+<div><label for="repair">Type de réparation</label><select id="repair" required><option value="">Choisir une prestation</option><option>Remplacement de batterie</option><option>Remplacement d'écran (OLED / LCD)</option><option>Changement de vitre arrière</option><option>Réparation de caméra</option><option>Réparation du connecteur de charge</option><option>Réparation de carte mère</option><option>Autre / diagnostic</option></select></div>
+<div><label for="place">Mode de prise en charge</label><select id="place" required><option value="">Choisir</option><option>À l'atelier / local</option><option>À domicile</option><option>Récupération et livraison</option><option>À convenir avec SL Réparation</option></select></div>
+<div><label for="date">1. Choisir une date (lundi au samedi)</label><input id="date" type="date" required></div>
+<div><label>2. Choisir une heure</label><div class="slots" id="slots"><span class="note">Choisissez une date pour afficher les créneaux.</span></div></div>
+<div class="full"><label for="details">Détails de la panne (facultatif)</label><textarea id="details" placeholder="Décrivez brièvement le problème…"></textarea></div>
+<div class="full"><p class="note">Les tarifs sont communiqués après échange. Cette première version prépare votre demande : la confirmation automatique et le blocage des créneaux seront activés après la mise en place du service de réservation sécurisé.</p><button class="btn" type="submit">Préparer ma demande WhatsApp</button></div>
+</form></div></section>
+<section class="section wrap"><div class="night"><div><h3>Besoin d'une réparation en urgence la nuit ?</h3><p>Service exceptionnel sur demande WhatsApp. Supplément de 20 à 30 € selon la réparation, confirmé avant intervention.</p></div><a class="btn" href="https://wa.me/594694946706?text=Bonjour%20SL%20R%C3%A9paration%2C%20je%20souhaite%20demander%20une%20r%C3%A9paration%20de%20nuit.">Contacter sur WhatsApp</a></div></section>
+<section class="section wrap" id="galerie"><h2>Nos réparations · Avant / Après</h2><p class="intro">Les photos de tes interventions pourront être ajoutées ici pour montrer la qualité de ton travail.</p><div class="gallery">Galerie photos à compléter avec tes propres photos avant / après.</div></section>
+<section class="section wrap" id="contact"><h2>Contacter SL Réparation</h2><div class="cards"><article class="card"><div class="icon">☏</div><h3>WhatsApp</h3><p><a href="https://wa.me/594694946706">0694 94 67 06</a></p></article><article class="card"><div class="icon">✉</div><h3>E-mail</h3><p><a href="mailto:slrepation973@gmail.com">slrepation973@gmail.com</a></p></article><article class="card"><div class="icon">◷</div><h3>Horaires</h3><p>Du lundi au samedi<br>08h00 – 18h00</p></article></div></section>
+</main><footer><strong>SL RÉPARATION</strong><br>La réparation qui redonne vie à vos appareils, avec rapidité, précision et fiabilité.<br>Guyane française · <a href="https://wa.me/594694946706">WhatsApp</a> · <a href="mailto:slrepation973@gmail.com">E-mail</a></footer>
+<script>
+const dateInput=document.getElementById('date'),slots=document.getElementById('slots');let selected='';
+const times=['08:00 – 10:00','10:00 – 12:00','12:00 – 14:00','14:00 – 16:00','16:00 – 18:00'];
+const today=new Date();dateInput.min=new Date(today.getTime()-today.getTimezoneOffset()*60000).toISOString().slice(0,10);
+dateInput.addEventListener('change',()=>{selected='';slots.innerHTML='';if(!dateInput.value)return;const d=new Date(dateInput.value+'T12:00:00');if(d.getDay()===0){slots.innerHTML='<span class="note">Le dimanche est fermé. Choisissez un autre jour.</span>';return;}times.forEach(t=>{const b=document.createElement('button');b.type='button';b.className='slot';b.textContent=t;b.setAttribute('aria-pressed','false');b.addEventListener('click',()=>{selected=t;slots.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true')});slots.appendChild(b)})});
+document.getElementById('bookingForm').addEventListener('submit',e=>{e.preventDefault();if(!selected){alert('Veuillez choisir un créneau horaire.');return;}const val=id=>document.getElementById(id).value;const msg='Bonjour SL Réparation, je souhaite demander un rendez-vous :\nNom : '+val('customer')+'\nTéléphone : '+val('phone')+'\nAppareil : '+val('device')+' '+val('model')+'\nRéparation : '+val('repair')+'\nPrise en charge : '+val('place')+'\nDate : '+val('date')+'\nCréneau souhaité : '+selected+'\nDétails : '+val('details');window.open('https://wa.me/594694946706?text='+encodeURIComponent(msg),'_blank')});
+</script></body></html>
